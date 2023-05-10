@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 뷰포트 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>라인프렌즈</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- fullpage.css 연결 -->
+    <link rel="stylesheet" href="css/jquery.fullpage.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- 꼭 라이브러리가 위에 있어야함 -->
+
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="js/jquery-3.6.3.js"></script>
+
+     <!-- fullpage.js 연결 -->
+     <script src="js/jquery.fullPage.js"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- 제이쿼리 사용자 파일 -->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <!-- 로고 -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="로고">
+                </a>
+            </div>
+            <!-- 글로벌 내비게이션(전체 메뉴) -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">카테고리</a>
+                        <ul class="sub">
+                            <div class="sub_title">카테고리</div>
+                            <div class="sub_menu">
+                                <div class="re_sub1">
+                                    <li><a href="#">토이</a></li>
+                                    <li><a href="#">문구</a></li>
+                                    <li><a href="#">디지털</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">패션잡화</a></li>   
+                                    <li><a href="#">리빙레저</a></li>
+                                </div>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub1.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">NEW</a>
+                        <ul class="sub">
+                            <div class="sub_title">NEW</div>
+
+                            <div class="sub_menu">
+                                <div class="re_sub2">
+                                    <li><a href="#">토이</a></li>
+                                    <li><a href="#">문구</a></li>
+                                    <li><a href="#">디지털</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">패션잡화</a></li>
+                                    <li><a href="#">리빙레저</a></li>
+                                </div>
+                            </div> 
+                            <div class="sub_img">
+                                <img src="img/sub2.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BEST</a>
+                        <ul class="sub">
+                            <div class="sub_title">BEST</div>
+
+                            <div class="sub_menu">
+                               <div class="re_sub3">
+                                    <li><a href="#">토이</a></li>
+                                    <li><a href="#">문구</a></li>
+                                    <li><a href="#">디지털</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">패션잡화</a></li>
+                                    <li><a href="#">리빙레저</a></li>
+                               </div>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub3.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BT21</a>
+                        <ul class="sub">
+                            <div class="sub_title">BT21</div>
+
+                            <div class="sub_menu">
+                               <div class="re_sub4">
+                                    <li><a href="#">토이</a></li>
+                                    <li><a href="#">문구</a></li>
+                                    <li><a href="#">디지털</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">패션잡화</a></li>
+                                    <li><a href="#">리빙레저</a></li>
+                               </div>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub4.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">캐릭터</a>
+                        <ul class="sub">
+                            <div class="sub_title">캐릭터</div>
+
+                            <div class="sub_menu">
+                               <div class="re_sub5">
+                                    <li><a href="#">라인프렌즈</a></li>
+                                    <li><a href="#">BT21</a></li>
+                                    <li><a href="#">브롤스타즈</a></li>
+                                    <li><a href="#">TRUZ</a></li>
+                                    <li><a href="#">minini</a></li>
+                                    <li><a href="#">KARTRIDER</a></li>
+                               </div>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub5.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">브랜드</a>
+                        <ul class="sub">
+                            <div class="sub_title">브랜드</div>
+
+                            <div class="sub_menu">
+                               <div class="re_sub6">
+                                    <li><a href="#">COLLER</a></li>
+                                    <li><a href="#">CASETify</a></li>
+                                    <li><a href="#">MINIONS</a></li>
+                                    <li><a href="#">Masion Kitsune</a></li>
+                               </div>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub6.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- 로그인과 조인 --><!-- 햄버거 메뉴 -->
+            <div class="right_menu">
+                <div class="member">
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">JOIN</a></li>
+                    </ul>
+                </div>
+                <div class="ham">
+                    <a href="#">
+                        <img src="img/ham.png" alt="햄버거 메뉴">
+                    </a>
+                </div>
+            </div>
+            
+        </header>
+    <div class="wrap" id="fullpage">    
+        <!-- .section은 pc버전 fullpage에서 사용 -->
+            <section class="section main_slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide main1"><a href="#"></a></div>
+                        <div class="swiper-slide main2"><a href="#"></a></div>
+                        <div class="swiper-slide main3"><a href="#"></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            
+            </section>
+            <section class="section character">
+                <h1>CHARACTER</h1>
+                <!-- 탭메뉴 -->
+                <div class="tab">
+                    <div class="tab_title">
+                        <ul>
+                            <li class="active"><a href="#">LINE FRIENDS</a></li>
+                            <li><a href="#">BT21</a></li>
+                        </ul>
+                    </div>
+                    <!-- 탭내용 -->
+                    <div class="tab_con">
+                        <div class="tab_con1">
+                            <div class="swiper line_character">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"> <img src="img/brown.png" alt="브라운"> </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/choco.png" alt="초코">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/flog.png" alt="레너드">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/cony.png" alt="코니">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/sally.png" alt="샐리">  </a></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+                        <div class="tab_con2">
+                            <div class="swiper bt_character">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"> <img src="img/coya.png" alt="코야">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/chimi.png" alt="치미"> </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/tata.png" alt="타타">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/mang.png" alt="망이">  </a></div>
+                                <div class="swiper-slide"><a href="#"> <img src="img/suky.png" alt="슈키"> </a></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- <section class="notice"> -->
+                
+            <section class="section event">
+                <h1>NEWS &amp; EVENT</h1>
+                <h3>이벤트</h3>
+                <div class="swiper eventSlide">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#">
+                                <div class="event_img event1"></div>
+                                <div class="event_txt"><p>선물처럼 다가올 순간</p></div>
+                            </a></div>
+    
+                            <div class="swiper-slide"><a href="#">
+                                <div class="event_img event2"></div>
+                                <div class="event_txt"><p>5th ANNIVERSARY</p></div>
+                            </a></div>
+    
+                            <div class="swiper-slide"><a href="#">
+                                <div class="event_img event3"></div>
+                                <div class="event_txt"><p>대왕 레니니가 기다려요!</p></div>
+                            </a></div>
+    
+                            <div class="swiper-slide"><a href="#">
+                                <div class="event_img event4"></div>
+                                <div class="event_txt"><p>BT21 with ETUDE</p></div>
+                            </a></div>
+                    </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+            </section>
+            
+
+            <section class="section news">
+                <h3>뉴스</h3>
+                <div class="news_box">
+                    <div class="news1">
+                        <img src="img/news1.png" alt="넷플릭스 애니메이션">
+                        <span>NEWS</span>
+                        <div class="txt_wrap">
+                            <div class="news_txt">
+                                <p>라인프렌즈 캐릭터, <br> 넷플릭스 애니메이션으로 탄생</p>
+                            </div>
+                            <div class="sub_txt">
+                                <h2>넷플릭스 시리즈 ‘브라운앤프렌즈’는 <br>
+                                    브라운, 코니, 샐리, 초코 등 총 11명의 오리지널 캐릭터를 중심으로 <br>
+                                    탄생한 3D 애니메이션이며 캐릭터의 매력을 담은 스토리를 선보일 예정이다.</h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="news2">
+                        <img src="img/news2.png" alt="월드 팝업스토어 오픈">
+                        <span>NEWS</span>
+                       <div class="txt_wrap">
+                            <div class="news_txt">
+                                <p>라인프렌즈 월드 팝업스토어 오픈</p>
+                            </div>
+                            <div class="sub_txt">  
+                                <h2>10월 28일, 라인프렌즈가 Z세대들의 핫플 성수동에 조그만 크기에 비해 <br>
+                                    반전의 B급 매력을 가진 미니니, 글로벌 인기 캐릭터 BT21, TRUZ 등을 <br>
+                                    한데 만나볼 수 있는 라인프렌즈 월드 팝업스토어를 오픈했다.</h2>
+                            </div> 
+                       </div>
+                    </div>
+                    <button>All News</button>
+                </div>
+            </section>
+
+
+            <section class="section video">
+                <h1>LINE FRIENDS VIDEO</h1>
+                <!-- 흐르는 글자 -->
+                <div class="marquee">
+                    <div class="marquee_box">
+                        <span>BT21 - 'Would You' OFFICIAL M/V</span>
+                        <span>BT21 - 'Would You' OFFICIAL M/V</span>
+                    </div>
+                </div>
+                <!-- 유튜브 동영상 -->
+                <div class="youtube">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3SaBfWYAMWM" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="section follow">
+                <h1>FOLLOW US</h1>
+                <span>@linefriends_kr</span>
+                <div class="follow_list">
+                    <ul>
+                        <li><a href="#"><img src="img/insta1.png" alt="베스트 스티커 세트"></a></li>
+                        <li><a href="#"><img src="img/insta2.png" alt="브라운앤프렌즈"></a></li>
+                        <li><a href="#"><img src="img/insta3.png" alt="브랜드데이"></a></li>
+                        <li><a href="#"><img src="img/insta4.png" alt="배틀그라운드 콜라보"></a></li>
+                        <li><a href="#"><img src="img/insta5.png" alt="미니언 콜라보"></a></li>
+                        <li><a href="#"><img src="img/insta6.png" alt="라인프렌즈 랜선 골프매치"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <footer class="section fp-auto-height">
+                <div class="marquee">
+                    <div class="marquee_box">
+                        <span>BT21 - 'Would You' OFFICIAL M/V</span>
+                        <span>BT21 - 'Would You' OFFICIAL M/V</span>
+                    </div>
+                </div>
+                <div class="f_wrap">
+                    <div class="f_top">
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">쇼핑스토리</a></li>
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">네이버약관</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_bottom">
+                        <div class="f_logo"><img src="img/f_logo.png" alt="로고"></div>
+                        <div class="sns">
+                            <ul>
+                                <li><a href="#"><img src="img/insta.png" alt="인스타그램"></a></li>
+                                <li><a href="#"><img src="img/twitter.png" alt="트위터"></a></li>
+                                <li><a href="#"><img src="img/youtube.png" alt="유튜브"></a></li>
+                            </ul>
+                        </div>
+                        <address>네이버㈜ <br>
+                            사업자등록번호 220-81-62517 통신판매업신고번호 2006-경기성남-0692호 <br>
+                            대표이사 최수연경기도 성남시 분당구 정자일로 95, NAVER 1784, 13561</address>
+                    </div>
+                </div> 
+                <small>
+                    Copyright ©NAVER Corp.All Rights Reserved.
+                </small>   
+            </footer>
+        </div>
+        <!-- 팝업 -->
+        <div class="popup">
+            <div class="close">
+                <a href="#">
+                    <img src="img/close.png" alt="닫기">
+                </a>
+            </div>
+            <h3>로그인하신 후 더 많은 <br> 라인프렌즈의 소식을 만나보세요!</h3>
+            <div class="buttons">
+                <ul>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        <div class="popup_nav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">카테고리</a>
+                        <ul class="sub">
+                            <li><a href="#">토이</a></li>
+                            <li><a href="#">문구</a></li>
+                            <li><a href="#">디지털</a></li>
+                            <li><a href="#">의류</a></li>
+                            <li><a href="#">패션잡화</a></li>
+                            <li><a href="#">리빙레저</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">NEW</a>
+                        <ul class="sub">
+                            <li><a href="#">토이</a></li>
+                            <li><a href="#">문구</a></li>
+                            <li><a href="#">디지털</a></li>
+                            <li><a href="#">의류</a></li>
+                            <li><a href="#">패션잡화</a></li>
+                            <li><a href="#">리빙레저</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BEST</a>
+                        <ul class="sub">
+                            <li><a href="#">토이</a></li>
+                            <li><a href="#">문구</a></li>
+                            <li><a href="#">디지털</a></li>
+                            <li><a href="#">의류</a></li>
+                            <li><a href="#">패션잡화</a></li>
+                            <li><a href="#">리빙레저</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BT21 5th</a>
+                        <ul class="sub">
+                            <li><a href="#">토이</a></li>
+                            <li><a href="#">문구</a></li>
+                            <li><a href="#">디지털</a></li>
+                            <li><a href="#">의류</a></li>
+                            <li><a href="#">패션잡화</a></li>
+                            <li><a href="#">리빙레저</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">캐릭터</a>
+                        <ul class="sub">
+                            <li><a href="#">라인프렌즈</a></li>
+                            <li><a href="#">BT21</a></li>
+                            <li><a href="#">브롤스타즈</a></li>
+                            <li><a href="#">TRUZ</a></li>
+                            <li><a href="#">minini</a></li>
+                            <li><a href="#">KARTRIDER</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">브랜드</a>
+                        <ul class="sub">
+                            <li><a href="#">COLLER</a></li>
+                            <li><a href="#">CASETify</a></li>
+                            <li><a href="#">MINIONS</a></li>
+                            <li><a href="#">Masion Kitsune</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="popup_follow">
+            <h4>Follow Us</h4>
+            <div class="popup_sns">
+                <ul>
+                    <li><a href="#"><img src="img/insta.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="img/youtube.png" alt="유튜브"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
